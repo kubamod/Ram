@@ -23,15 +23,16 @@
 <div id="page" class="site">
 
 	<header id="masthead" class="site-header">
-			<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'modrzjwzki' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav><!-- #site-navigation -->
+		<div class="header">
+			<img src="<?php echo bloginfo('template_directory'); ?>/assets/logo.png" class="img-fluid logo" width="90" />
+			<ul class="menu">
+			<li><a href="#">główna</a></li>
+			<li><a href="#">O nas</a></li>
+			<li><a href="#">Kontakt</a></li>
+			<li><a href="#">blog</a></li>
+			</ul>
+		 </div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+
