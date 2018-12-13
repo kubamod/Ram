@@ -4,13 +4,47 @@
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-	<div class="slide-one"></div>
+	<div class="slide-one">
+	<div style="max-width:1300px; margin-left:auto; margin-right:auto;">
+		<div class="row align-items-center">
+			<div class="col-sm-8">
+				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/1.png" class="img-fluid" width="900" />	
+			</div>
+			<div class="col-sm">
+				<div class="my-auto"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+			</div>
+		</div>	
+	</div>
+	</div>
     </div>
     <div class="carousel-item">
-	<div class="slide-one"></div>
+	<div class="slide-one">
+	<div style="max-width:1300px; margin-left:auto; margin-right:auto;">
+		<div class="row align-items-center">
+			<div class="col-sm-8">
+				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/1.png" class="img-fluid" width="900" />	
+			</div>
+			<div class="col-sm">
+				<div class="my-auto"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+			</div>
+		</div>	
+	</div>
+	</div>
     </div>
     <div class="carousel-item">
-	<div class="slide-one"></div>
+	<div class="slide-one">
+	<div style="max-width:1300px; margin-left:auto; margin-right:auto;">
+		<div class="row align-items-center">
+			<div class="col-sm-8">
+				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/1.png" class="img-fluid" width="900" />	
+			</div>
+			<div class="col-sm">
+				<div class="my-auto"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+			</div>
+		</div>	
+	</div>
+	</div>
+
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -22,22 +56,26 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
-<div class="section-background">
 
-<div class="section">
-	<div class="container">
+<hr class="separator"/>
+
+<div class="section-background">
+<div class="section" id="oferta">
 		<div class="row align-items-center">
-			<div class="col-sm-6">
-				<div class="my-auto"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum.<span class="gradient"> Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</span></div>
+			<div class="col-sm-6" style="padding-left:0; padding-right:0;">
+				<div class="text-block my-auto"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum.Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
 			</div>
 
-			<div class="col-sm">
+			<div class="col-sm order-first order-sm-last">
 				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/2.png" class="img-fluid" />	
 			</div>	
 		</div>
-	</div>
 </div>
 </div>
+
+
+<hr class="separator" style="margin-top:0;margin-bottom:100px;"/>
+
 <div class="section-background">
 <div class="section three">
 		<div class="row align-items-center ">
@@ -45,32 +83,39 @@
 				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/3.png" class="img-fluid " />
 			</div>
 			<div class="col-sm">
-				<div class="my-auto"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+				<div class="my-auto text-block" style="padding-bottom:50px"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
 			</div>	
 		</div>
+
 </div>
 </div>
-<div class="section-background" style="background-color:#eee">
+
+
+<hr class="separator" style="margin-bottom:100px; margin-top:30px;"/>
+
+<div class="section-background" id="oNas" style="background-color:#FFF;padding-bottom:50px; padding-top:50px;">
 <div class="section white">
 		<div class="row align-items-center ">
 			<div class="col-sm-6">
-				<div class="col-max" style="float:right;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
-				<div class="col-max" style="float:right;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+				<div class="col-max text-block" style="float:right; margin-bottom:40px;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+				<div class="col-max text-block" style="float:right;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
 			</div>
-			<div class="col-sm-6 ">
+			<div class="col-sm-6 col-img order-first order-sm-last ">
 				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/4.png" class="img-fluid " style="float:right;"/>
 			</div>	
 		</div>
 </div>
 </div>
 
-<div class="section-background" style="background-color:#000">
+<hr class="separator" style="margin-bottom:70px;"/>
+
+<div class="section-background" id="kontakt" style="background-color:#000">
 <div class="section last">
 		<div class="row align-items-center ">
-			<div class="col-sm-6">
-				<div class="col-max" style="float:right;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+			<div class="col-md-6 ">
+				<div class="col-max text-block map-text" style="float:right;"><h2>Kontakt</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
 			</div>
-			<div class="col-sm-6 ">
+			<div class="col-md-6 ">
 				<div id="map"></div>
 			<script>
 			// Initialize and add the map

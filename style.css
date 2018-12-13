@@ -1,18 +1,22 @@
 
 
 body {
-	background-color:#fff;
+	background-color:#000;
 	color:#fff;
  	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	padding:0;
 	margin:0;
 }
 
+.site-header {
+	background-color:#000;
 
+}
 
 .header {
 	height:60px;
-	margin:0 !important;
+	margin:auto;
+	max-width:1300px;
 	background-color:#000;
 }
 
@@ -40,11 +44,14 @@ body {
 
 .menu {
 	float:right;	
+	background-color:#fff;
+	border-radius:10px;
+	padding-left:0;
 }
 
 
 .menu a {
-	color: #fff;
+	color: blue;
 	text-decoration: none;
 }
 
@@ -60,14 +67,8 @@ footer {
 	margin-right:auto;
 	padding-top:60px;
 	background-color:#000;
-	margin-top:10px;
-	margin-bottom:10px;
-	margin-top:10px;
-	margin-bottom:10px;
 	font-size:18px;
 }
-
-
 .section-background {
 	background-color:#000;
 }
@@ -102,10 +103,13 @@ footer {
 	background-color:rgba(255,255,255,1);
 }
 
+.nav-link {
+	text-align:center;
+}
+
 .three {
 	padding-top:0;
 	padding-bottom:0;
-
 }
 
 .row {
@@ -115,11 +119,10 @@ footer {
 
 
 .white {
-	background-color:#eee;
+	background-color:#fff;
 	padding-top:0;
 	padding-bottom:0;
 	color:#000;
-
 }
 
 
@@ -128,20 +131,10 @@ footer {
         width: 100%;  /* The width is the width of the web page */
 }
 
-.gradient {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3101a0+0,f2106e+100 */
-background: #3101a0; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #3101a0 0%, #f2106e 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #3101a0 0%,#f2106e 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #3101a0 0%,#f2106e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3101a0', endColorstr='#f2106e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  	-webkit-background-clip: text;
-  	-webkit-text-fill-color: transparent;
-
-}
 
 .last {
 	margin-bottom:0px;
+	padding-top:0;
 }
 
 footer {
@@ -152,6 +145,44 @@ footer {
 }
 
 .slide-one {
-	height: 80vh;
 	background-color:#000;
+padding:0;
 }
+
+.separator {
+	border-top: 2px solid rgba(255,255,255,0.3);
+	max-width:200px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	
+}
+
+.navbar {
+	color:#fff;
+	max-width:1300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.text-block {
+	padding-top:30px;
+}
+
+.col-img {
+	padding-left:0;
+	padding-right:0;
+}
+
+.bg-dark {
+	background-color:#000 !important;
+}
+
+.map-text {
+	padding-bottom:20px;
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+

@@ -25,18 +25,32 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="<?php echo home_url(); ?>"><img src="<?php echo bloginfo('template_directory'); ?>/assets/logo.png" class="img-fluid logo" width="90" /></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-	<header id="masthead" class="site-header">
-		<div class="header">
-			<img src="<?php echo bloginfo('template_directory'); ?>/assets/logo.png" class="img-fluid logo" width="90" />
-			<ul class="menu">
-			<li><a href="#">Główna</a></li>
-			<li><a href="#">O nas</a></li>
-			<li><a href="#">Kontakt</a></li>
-			<li><a href="#">Blog</a></li>
-			</ul>
-		 </div>
-	</header><!-- #masthead -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="<?php echo home_url(); ?>">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo home_url(); ?>#oferta">Oferta</a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link" href="<?php echo home_url(); ?>#oNas">O nas</a>
+        </li>
+          <li class="nav-item">
+        <a class="nav-link" href="<?php echo home_url(); ?>#kontakt">Kontakt</a>
+      </li></li>
+          <li class="nav-item">
+        <a class="nav-link" href="<?php echo home_url(); ?>/blog">Blog</a>
+      </li></li>
+    </ul>
+  </div>
+</nav>
 
 	<div id="content" class="site-content">
 
