@@ -91,14 +91,15 @@
 </div>
 
 
-<hr class="separator" style="margin-bottom:100px; margin-top:30px;"/>
+<hr class="separator" style="margin-bottom:100px; margin-top:100px;"/>
+<!-- #################### O nas ##################### -->
 
 <div class="section-background" id="oNas" style="background-color:#FFF;padding-bottom:50px; padding-top:50px;">
 <div class="section white">
 		<div class="row align-items-center ">
 			<div class="col-sm-6">
-				<div class="col-max text-block" style="float:right; margin-bottom:40px;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
-				<div class="col-max text-block" style="float:right;"><h2>Lorem ipsum</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+				<div class="col-max text-block" style="float:right; margin-bottom:40px;"><h2>Profesjonalni</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
+				<div class="col-max text-block" style="float:right;"><h2>Rzetelni</h2> dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar tortor sit amet ex vehicula, in sollicitudin metus elementum. Phasellus efficitur metus et felis elementum, vel semper ligula tristique. Aliquam nec lectus ac lectus fermentum euismod. Vivamus augue dui, mattis id laoreet a, bibendum quis urna. Proin vitae leo ligula.</div>
 			</div>
 			<div class="col-sm-6 col-img order-first order-sm-last ">
 				<img src="<?php echo bloginfo('template_directory'); ?>/assets/images/4.png" class="img-fluid " style="float:right;"/>
@@ -108,7 +109,7 @@
 </div>
 
 <hr class="separator" style="margin-bottom:70px;"/>
-
+<!-- ################ MAPA ################ -->
 <div class="section-background" id="kontakt" style="background-color:#000">
 <div class="section last">
 		<div class="row align-items-center ">
