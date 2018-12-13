@@ -13,13 +13,12 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer ">
 		<div class="site-info">
-			<span class="sep">  </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'modrzjwzki' ), 'modrzjwzki', '<a href="http://underscores.me/">Underscores.me</a>' );
-				?>
+			<div style="margin-left:auto; margin-right:auto; text-align:center; padding-top:10px;">Copyright &copy Ram Studio usług komputerowych 2018r.</div>
+			<div class="socialmedia">
+				
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
