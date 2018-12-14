@@ -185,6 +185,11 @@ padding:0;
 @media screen and (max-width: 768px) {
 	
 }
+
+.slide-one h2{
+	font-weight:900;
+}	
+
 /* ##################### BLOG ################### */
 
 
@@ -261,10 +266,7 @@ padding:0;
 .full-post {
 	padding-top: 10px;
 }
-.full-post ol,ul {
-	max-width: 650px;
 
-}
 
 .full-post p {
 	max-width: 650px;
@@ -330,6 +332,10 @@ padding:0;
 
 .more-link { 
 	font-size:16px;
+	max-width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .entry-summary {

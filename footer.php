@@ -15,7 +15,7 @@
 
 	<footer id="colophon" class="site-footer ">
 		<div class="site-info">
-			<div style="margin-left:auto; margin-right:auto; text-align:center; padding-top:10px;">Copyright &copy Ram Studio usług komputerowych 2018r.</div>
+			<div style="margin-left:auto; margin-right:auto; text-align:center; padding-top:10px;">Copyright &copy Ram Studio usług komputerowych Sp. z o. o 2018r.</div>
 			<div class="socialmedia">
 							
 			</div>
